@@ -1,5 +1,5 @@
 local lfs = require("lfs")
-local zip = require("zip")
+local zip = require("brimworks.zip")
 
 local payload_dir = "src"
 local build_dir = "build"
@@ -16,7 +16,7 @@ local platform = os.getenv("OS") or io.popen("uname"):read("*l") print(buildEnv)
 function build_love2d()
 	os.execute("git submodule update --init --recursive")
 	os.execute("cmake love2d -B build -DCMAKE_BUILD_TYPE=" .. buildType)
-	os.execute("cmake love2d --build build")
+	os.execute("cmake --build build")
 end
 
 function generate_payload()
@@ -38,7 +38,7 @@ function main()
 	lfs.rmdir(build_dir)
 	local success,err = lfs.mkdir(build_dir)
 
-	if !success then
+	if not success then
 		print("Error: " .. err)
 	end
 
