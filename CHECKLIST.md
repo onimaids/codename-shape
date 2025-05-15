@@ -11,7 +11,7 @@
 - [ ] Asset/ folder with easy access for modding
 # Levels
 - [ ] Level Editor
-- [ ] Editor: As easy to use as possible
+- - [ ] As easy to use as possible
 - [ ] Level downloader (See #Repository)
 # Repository
 - [ ] Hosted via GitHub or something
