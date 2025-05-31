@@ -1,2 +1,0 @@
-# Expected Graphics Output
-The images expected by the tests
