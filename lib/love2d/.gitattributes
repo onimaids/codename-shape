@@ -1,5 +1,0 @@
-.git* export-ignore
-.hg* export-ignore
-*.c diff=cpp
-*.cpp diff=cpp
-*.h diff=cpp

@@ -1,5 +1,0 @@
-@LOVE_EXE_NAME@ (@LOVE_VERSION_STR@ppa1) focal; urgency=medium
-
-  * Upstream testing release
-
- -- Bart van Strien <bart.bes@gmail.com>  @LOVE_CONFIGURE_TIMESTAMP@
