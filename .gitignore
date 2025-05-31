@@ -1,5 +1,5 @@
 build/
 .luarc.json
 src/.luarc.json
-lib/love2d/testing/
 codenameshape*
+lib/love2d/testing/
